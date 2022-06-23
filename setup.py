@@ -27,8 +27,6 @@ setup(
     name="monitoring_with_prometheus",
     version="0.0.1",
     description="Repo for ML monitoring training with prometheus",
-    author="Wesley Boelrijk",
-    author_email="wboelrijk@xccelerated.io",
     packages=find_packages("src"),
     package_dir={"": "src"},
     install_requires=base_requirements,
